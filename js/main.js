@@ -1,7 +1,4 @@
 $(document).ready(function(){
-
-
-
 	ddsmoothmenu.init({
 		mainmenuid: "templatemo_menu", //menu DIV id
 		orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
@@ -24,12 +21,13 @@ $(document).ready(function(){
 			speed:0.15,
 		}
 	);
-
 	$('.pagination li').click(changePage);
 		$('.portfolio-item').magnificPopup({ 
 			type: 'image',
 			gallery:{
 				enabled:true
-		}
-	});
+			}
+		});
+
+
 });
